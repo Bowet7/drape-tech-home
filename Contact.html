@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DRAPE TECH</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f1f5f9;
+            color: #172b40;
+        }
+
+        header {
+            background: #071b30;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #12385c;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #ccd5df;
+        }
+
+        h2 {
+            color: #087ce5;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            background: #087ce5;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #071b30;
+        }
+
+        .details {
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #071b30;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DRAPE TECH</h1>
+        <p>Innovation | Technology | Solutions</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+
+        <p>
+            Do you have a question, idea or technology project?
+            We would love to hear from you!
+        </p>
+
+        <div class="details">
+            <p><strong>Project:</strong> DRAPE TECH</p>
+            <p><strong>Institution:</strong> Kabale University</p>
+            <p><strong>Email:</strong> arindahbowet@gmail.com</p>
+            <p><strong>Location:</strong> Kabale University, Uganda</p>
+        </div>
+
+        <h3>Send Us a Message</h3>
+
+        <form action="mailto:yourteam@example.com"
+              method="post" enctype="text/plain">
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="Name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="Email"
+                   placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="Message"
+                      rows="5" placeholder="Write your message"
+                      required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; BOWET 2026 DRAPE TECH | Kabale University</p>
+    </footer>
+
+</body>
+</html>
